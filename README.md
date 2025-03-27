@@ -2,7 +2,7 @@
 # Description
 This repository provides a foundational implementation for flood segmentation in high-resolution aerial imagery.  We present two machine learning models for the segmentation of flood-affected areas using transfer learning techniques: 
 
-* A fine-tuned Segment Anything Model (SAM) comparing the performance of points prompt versus bounding box (Bbox) prompt.
+* A fine-tuned Segment Anything Model (SAM) comparing the performance of the points prompt versus the bounding box (Bbox) prompt.
    
 * A U-Net model employing ResNet-50 and ResNet-101 pre-trained networks as backbones.
    
@@ -17,7 +17,7 @@ To run the code, ensure you have the following dependencies installed:
 * PyTorch 2.0+
 * NumPy
 * OpenCV
-* Additional libraries as listed in [requirements.txt](https://github.com/hadi1994shokati/Soil-erosion-segmentation/blob/main/requirements.txt)
+* Additional libraries as listed in [requirements.txt](https://github.com/hadi1994shokati/Flood-segmentation/blob/main/requirements.txt)
 
 
 # How to Cite
