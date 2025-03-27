@@ -1,6 +1,10 @@
 """
 
-This code fine-tunes the mask decoder of the Segment Anything model (SAM) for the flood segmentation task. It uses the Flood Area Dataset (https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation).  The code loads the dataset, resizes the images and masks to 256 * 256 pixels, and uses them to fine-tune the pre-trained SAM model. The code uses the bounding boxes and point prompts of the masks as input prompts to the model. The code uses the Dice Cross-Entropy loss function and the Adam optimizer for training. The code saves the best model based on the validation loss and logs the training and validation losses, as well as the validation metrics (F1 score, precision, recall, IoU, and accuracy) to Wandb. The code also saves the model checkpoints for the best epoch and the last epoch. The code uses the Wandb library to visualize the results and training and validation losses. The code also uses the Monai library to calculate the loss function. 
+This code fine-tunes the mask decoder of the Segment Anything model (SAM) for the flood segmentation task. It uses the Flood Area Dataset (https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation).  
+The code loads the dataset, resizes the images and masks to 256 * 256 pixels, and uses them to fine-tune the pre-trained SAM model. The code uses the bounding boxes and point prompts of the masks as input prompts to the model. 
+The code uses the Dice Cross-Entropy loss function and the Adam optimizer for training. The code saves the best model based on the validation loss and logs the training and validation losses, as well as 
+the validation metrics (F1 score, precision, recall, IoU, and accuracy) to Wandb. The code also saves the model checkpoints for the best epoch and the last epoch. The code uses the Wandb library to visualize the 
+results and training and validation losses. The code also uses the Monai library to calculate the loss function. 
 
 """
 # importi necessary libraries
