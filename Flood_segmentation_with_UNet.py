@@ -1,5 +1,7 @@
-#  This code is used to segment flood areas in aerial images using a U-Net model with a ResNet backbone. The dataset used is the "Flood Area Dataset" from Kaggle (https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation). The dataset contains images of flood areas and their corresponding masks. The U-Net model is implemented using PyTorch and the ResNet backbone is used to extract features from the input images. The model is trained using a combination of Dice Loss and Cross-Entropy Loss. The model is evaluated on a test set and the performance metrics are computed. The predicted masks are saved as images for visualization.
-
+"""  This code is used to segment flood areas in aerial images using a U-Net model with a ResNet backbone. The dataset used is the "Flood Area Dataset" from Kaggle (https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation). 
+The dataset contains images of flood areas and their corresponding masks. The U-Net model is implemented using PyTorch and the ResNet backbone is used to extract features from the input images. The model is trained using a combination 
+of Dice Loss and Cross-Entropy Loss. The model is evaluated on a test set and the performance metrics are computed. The predicted masks are saved as images for visualization.
+"""
 from colorama import Fore, Style
 import os
 import cv2
