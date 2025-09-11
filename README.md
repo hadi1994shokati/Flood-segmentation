@@ -6,7 +6,7 @@ This repository provides a foundational implementation for flood segmentation in
    
 * A U-Net model employing ResNet-50 and ResNet-101 pre-trained networks as backbones.
    
-We use the Flood Area Dataset comprising 290 images with their corresponding masks acquired from [Karim et al., (2022)](https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation).
+We use the Flood Area Dataset comprising 290 images with their corresponding masks acquired from [Karim et al., (2022)](https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation). If the data are not already there, you can download them directly from [here](https://www.dropbox.com/scl/fi/0y4gk54s7nuy2cpy8r73g/data.zip?rlkey=g14xy1lqbgd2yz8ogg1n08tx0&st=re8cocx2&dl=0).
 
 The implementation is developed in **Python** using the **PyTorch** framework.
 
